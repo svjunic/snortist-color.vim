@@ -62,7 +62,7 @@ if exists("syntax_on")
 	syntax reset
 endif
 
-let colors_name = "radicalgoodspeed"
+let colors_name = "snortist-color"
 
 " Current Line
 "set cursorline
