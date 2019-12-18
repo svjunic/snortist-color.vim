@@ -128,7 +128,7 @@ hi MatchParen       ctermfg=239 ctermbg=214  guibg=#fcaf3e guifg=#2e3436
 hi Directory        ctermfg=255              guifg=#ffffff
 
 " Syntax
-hi Comment          ctermfg=14               guifg=#00ccff
+hi Comment          ctermfg=45               guifg=#f0417b
 hi Constant         ctermfg=190              guifg=#d9f645
 hi number           ctermfg=119              guifg=#93f369
 hi Statement        ctermfg=213              guifg=#ff88ee               gui=none cterm=none
