@@ -48,11 +48,12 @@
 "   39     111     #7fa7f8
 "   40     211     #e17a98
 "   41     119     #93f369
-"   42     190     #d9f645
+"   42     
 "   43     15      #ffffff
 "   43     199     #e7439c
 "   44     226     #fff847
 "   45     198     #f0417b
+"          227     #fff96c
 
 set background=dark
 
@@ -62,7 +63,7 @@ if exists("syntax_on")
 	syntax reset
 endif
 
-let colors_name = "snortist-color"
+let colors_name = "snortist-theme"
 
 " Current Line
 "set cursorline
@@ -128,8 +129,8 @@ hi MatchParen       ctermfg=239 ctermbg=214  guibg=#fcaf3e guifg=#2e3436
 hi Directory        ctermfg=255              guifg=#ffffff
 
 " Syntax
-hi Comment          ctermfg=45               guifg=#f0417b
-hi Constant         ctermfg=190              guifg=#d9f645
+hi Comment          ctermfg=243              guifg=#f0417b
+hi Constant         ctermfg=154              guifg=#8ae234
 hi number           ctermfg=119              guifg=#93f369
 hi Statement        ctermfg=213              guifg=#ff88ee               gui=none cterm=none
 hi Identifier       ctermfg=221              guifg=#ffd700               gui=none cterm=none
@@ -160,11 +161,17 @@ hi phpParent                      ctermfg=249             guifg=#888a85
 hi javaScriptBraces               ctermfg=199             guifg=#e7439c
 hi javaScriptOperator             ctermfg=226             guifg=#fff847
 hi javascriptObjectLabel          ctermfg=111             guifg=#7fa7f8
-hi javascriptIdentifierName       ctermfg=15              guifg=#ffffff
+hi javascriptIdentifier           ctermfg=227             guifg=#fff96c
+" hi javascriptIdentifierName       ctermfg=15              guifg=#ffffff
+hi javascriptIdentifierName       ctermfg=145             guifg=#f0417b
 hi javascriptGlobal               ctermfg=15              guifg=#ffffff
 hi javascriptBoolean              ctermfg=119             guifg=#93f369
 hi javascriptMethodName           ctermfg=198             guifg=#f0417b
+hi javascriptObjectMethodName     ctermfg=198             guifg=#f0417b
 hi javascriptFuncName             ctermfg=198             guifg=#f0417b
+
+" Sass
+hi sassClass        ctermfg=213              guifg=#ff88ee               gui=none cterm=none
 
 " HTML
 hi htmlTag                        ctermfg=249             guifg=#888a85
